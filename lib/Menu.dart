@@ -143,7 +143,7 @@ This is to check the offset of the menu Icon in top left corner.
     return FadeTransition(
         opacity: _toolbarTitleFadeAnimation,
           child: Padding(
-        padding: EdgeInsets.only(left: 135),
+        padding: EdgeInsets.only(left: 100),
         child: IconButton(
           icon: Icon(
             Icons.add_circle_outline,
