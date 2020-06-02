@@ -126,7 +126,7 @@ class _MyPageOneState extends State<MyPageOne> {
                           Navigator.push(
                               context,
                               PageRouteBuilder(
-                                  transitionDuration: Duration(seconds: 1),
+                                  transitionDuration: Duration(seconds: 2),
                                   transitionsBuilder: (BuildContext context,
                                       Animation<double> animation,
                                       Animation<double> secAnimation,
